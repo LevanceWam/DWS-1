@@ -1,0 +1,35 @@
+
+/* body css */
+body {
+		color: pink;
+		background-color: black;
+}
+
+/* h1 */
+h1 {
+		color:white;
+}
+
+/* id four */
+#four {
+		color:#D9325E;
+}
+
+/* id three */
+#three {
+		color:#D982AB;
+}
+
+/* id two */
+#two {
+		color:#80A682;
+}
+/* id one */
+#one {
+		color:#F2BC79;
+}
+
+/* id zero */
+#zero {
+		color:#F27777;
+}
