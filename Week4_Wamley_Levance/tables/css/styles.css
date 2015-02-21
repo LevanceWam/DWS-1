@@ -7,7 +7,7 @@ body {
 }
 
 /* navigation */
- div #navigation ul {
+ nav ul {
 	list-style-type: none;
 	text-align: center;
 	width:625px;
@@ -20,7 +20,7 @@ body {
 	margin-left:auto;
 }
 
-div #navigation ul li {
+nav ul li {
 	margin-top:0px;
 	margin-bottom:0px;
 	margin-right:3px;
@@ -30,7 +30,7 @@ div #navigation ul li {
 }
 
 /* content */
-#content {
+section#content {
 	
 	width:600px;
 	margin-top:20px;
@@ -40,7 +40,7 @@ div #navigation ul li {
 	overflow:auto;
 }
 
-#content img {
+section#content img {
 				float:left;
 				margin:20px;
 }
@@ -69,7 +69,7 @@ a:hover, a#current-page {
 }
 
 /* id logo */
-#logo {
+header#logo {
 		width:303px;
 		margin-top:10px;
 		margin-bottom:25px;
@@ -120,3 +120,31 @@ figcaption{
 			background:url("../images/icon.png") no-repeat;
 			padding: 5px 0 0 25px;
 }
+
+table {
+		border-spacing:0;
+}
+
+th {
+	text-align:left;
+}
+
+td {
+	text-align:right;
+}
+
+th, td {
+		padding:5px 30px 5px 10px;
+		margin:0;
+		border-top: 1px solid #f1f8fe;
+		border-bottom: 1px solid #cbd2d8;
+		background-color:#cbd2d8;
+		border-right:1px solid #cbd2d8;
+		text-shadow: 1px 1px 1px #ffffff;
+}
+
+tr.even th, tr.even td {
+			background-color:#F1F8FE;
+}
+
+
