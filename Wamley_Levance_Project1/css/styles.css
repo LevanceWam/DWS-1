@@ -49,6 +49,7 @@ h1 {
     text-indent: -9999px;
     background:url("../images/logo.png") center no-repeat  ;
     height: 120px;
+
 }
 
 h1,h2,h3 {
@@ -136,17 +137,17 @@ figure {
  }
 
 #column1{
-        margin-right: 2%;
-        margin-left: 2%;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
 }
 
 #column2{
-        margin-right: 2%;
-        margin-left: 2%;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
 }
 
 #column3{
-        margin-left: 2%;
+        margin-left: 2.5%;
 }
 
  /*class clear*/
