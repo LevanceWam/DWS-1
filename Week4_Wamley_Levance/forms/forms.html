@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Forms</title>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<div id="page">
+			<header id="logo">
+				<img src="images/logo.png" alt="Cafe Vincze" />
+			</header>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Menu</a></li>
+					<li><a href="#">Location</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#" id="current-page">Contact</a></li>
+				</ul>
+			</nav>
+			<div id="contact_content">
+				<h1>Contact</h1>
+				<form
+					action="http://www.example.com/form.php"
+					method="post">
+				<fieldset>
+					<legend>Join our email list</legend>
+					<p>
+						<label class="title">Your Name:
+						<input type="text" name="name"
+						 id="name">
+						</label>
+						 <br>
+						<label class="title">Email:
+						<input type="text" name="email"
+						 id="email"></label>
+					 </p>
+					 <p>
+					<div id="submit">
+						<input type="submit"
+							   value="Register" id="submitb">
+
+					</div><label class="title">Birthday Month:
+						<select name="month" id="birthday">
+							<option value="01"
+								selected="selected">01</option>
+							<option value="02">02</option>	
+							<option value="03">03</option>	
+							<option value="04">04</option>	
+							<option value="05">05</option>	
+							<option value="06">06</option>	
+							<option value="07">07</option>	
+							<option value="08">08</option>
+							<option value="09">09</option>	
+							<option value="10">10</option>	
+							<option value="11">11</option>	
+							<option value="12">12</option>		
+						</select>
+							 </label>
+					 </p>
+				</fieldset>
+
+				
+				</form>
+				
+			</div><!-- /contact_content -->
+		</div><!-- /page -->
+	</body>
+</html>

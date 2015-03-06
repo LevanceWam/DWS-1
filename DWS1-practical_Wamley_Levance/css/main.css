@@ -1,0 +1,139 @@
+/*------ Document -----*/
+body {
+	margin: 0 auto;
+	padding: 0;
+	font: .75em/1.5em Helvetica, Arial, sans-serif;
+	color: #797267;
+	width: 960px;
+	background: #797267;
+}
+
+/* header */
+header {
+		width:960px;
+		height:210px;
+		background:url("../images/header-bg.jpg");
+		overflow:auto;
+}
+
+ h1  {
+	width:317px;
+	height:71px;
+	margin-top:64px;
+	margin-left:64px;
+	background:url("../images/logo.gif");
+	text-indent:-9999px;
+	
+}
+
+h1, nav {
+			float:left;
+}
+
+/* Navigation */
+nav {
+		width:277px;
+		margin:84px 64px 0 0;
+		text-align:right;
+		text-transform:uppercase;
+		margin-left:175px;
+}
+
+nav ul li {
+			display:inline-block;
+			font-weight:bold;
+			
+}
+
+li a {
+		color:#423b2e;
+		text-decoration:none;
+		padding:2px;
+}
+
+#current {
+			color:#bf3102;
+}
+
+/* h2 headings */
+h2 {
+	color:#423b2e;
+	font-size:1.5em;
+	
+}
+
+/* footer */
+footer {
+		color:#423b2e;
+		font-size:0.9em;
+		width:960px;
+		padding-top:92px;
+		background:url("../images/footer-bg.jpg") repeat-x;
+		text-align:center;
+}
+
+/* wrapper */
+#wrapper {
+			background:url("../images/main-content-bg.jpg");
+			overflow:auto;
+}
+
+/* banner */
+#banner {
+			background:url("../images/banner.jpg");
+			width:890px;
+			margin:0 auto;
+			height:200px;
+}
+
+/* columns */
+
+#column1of2, #column2of2 {
+							float:left;
+							padding-left:25px;
+							padding-bottom:45px;
+}
+
+#column1of2 {
+				width:450px;
+				margin-left:64px;
+}
+
+#column1of2 h2, #column2of2 h2  {
+				border-bottom:2px solid #000;
+				padding-bottom:10px;
+				margin-top:15px;
+}
+
+ #column2of2 {
+ 				width:290px;
+ 				margin-left:44px;
+}
+
+#column2of2 p {
+				border-bottom:2px solid #000;
+				margin-top:0;
+}
+
+/* 
+#column2of2 h2 {
+				border-bottom:2px solid #000;
+				padding-bottom:5px;
+}
+ */
+
+
+#column2of2 p, #column2of2 img {
+					float:left;
+					clear:right;
+}
+
+#column2of2 img {
+					border:4px solid #fff;
+					margin:0 15px 20px 0;
+					
+}
+/* section */
+section.page-flip {
+					background:url("../images/page-flip.gif") no-repeat bottom left;	
+}
