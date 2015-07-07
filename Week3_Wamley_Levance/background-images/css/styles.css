@@ -86,8 +86,8 @@ a:hover, a#current-page {
 
 /* Gallery */
 #gallery-content {
-					width:500px;
-					margin: 20px auto;
+					width:100%;
+					margin: 15px auto;
 					overflow:auto;
 }
 
@@ -102,15 +102,15 @@ a:hover, a#current-page {
 
 /* figure */
 figure {
-		width:202px;
+		width:30%;
 		height:193px;
 		margin:0;
-		padding:9px;
+		padding:.5%;
 		background-color:#e7e3d8;
 }
 
 figure img {
-			width:200px;
+			width:100%;
 			height:150px;
 			border: 1px solid #8c9c9e;
 }
